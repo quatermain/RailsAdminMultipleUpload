@@ -1,3 +1,25 @@
+<<<<<<< HEAD
 .bundle/
 log/*.log
 pkg/
+=======
+*.rbc
+*.sassc
+.sass-cache
+capybara-*.html
+.rspec
+.rvmrc
+/.bundle
+/vendor/bundle
+/log/*
+/tmp/*
+/db/*.sqlite3
+/public/system/*
+/coverage/
+/spec/tmp/*
+**.orig
+rerun.txt
+pickle-email-*.html
+.project
+config/initializers/secret_token.rb
+>>>>>>> d4929a9d5f63b38a23d3571ae95134ad35b0cd8b
