@@ -27,7 +27,7 @@ module RailsAdmin
             @response = {}
 
             if request.post?
-              @album = Album.find_by_id(params[:album_id])
+              @album = Album.find(params[:id])
               @album.update_attribute(:photos_attributes, params[:album][:photos_attributes])
             end
 
